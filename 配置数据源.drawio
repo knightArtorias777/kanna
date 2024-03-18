@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T02:46:01.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.5" etag="wvQ7AiNEU8t6t5REwRpQ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T03:33:14.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="BcLcta5HnyUyjAcm_nRJ" version="24.0.5" type="github">
   <diagram name="第 1 页" id="jSfeeTbyW1jBnwEB6kKy">
-    <mxGraphModel>
+    <mxGraphModel dx="842" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DhTZIucDK908sM7ZXncY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DhTZIucDK908sM7ZXncY-2" target="DhTZIucDK908sM7ZXncY-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="309.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DhTZIucDK908sM7ZXncY-2" target="DhTZIucDK908sM7ZXncY-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;instanceof 判断一下&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;DataSource/&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;EmbeddedDatabaseType&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DhTZIucDK908sM7ZXncY-4" target="DhTZIucDK908sM7ZXncY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-4" value="DataSourceAuto-&lt;div&gt;Configuration&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-14" value="DataSourcePool-&lt;div&gt;MetadataProviders-&lt;/div&gt;&lt;div&gt;Configuration&lt;/div&gt;&lt;div&gt;(连接池元数据提供者)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-15" value="DataSource-&lt;div&gt;Initialization-&lt;/div&gt;&lt;div&gt;Configuration&lt;/div&gt;&lt;div&gt;(数据源初始化)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DhTZIucDK908sM7ZXncY-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169.72413793103453" y="340.0689655172414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-17" value="DataSourceAuto-&lt;div&gt;Configuration&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DhTZIucDK908sM7ZXncY-19" target="DhTZIucDK908sM7ZXncY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-19" value="EmbeddedDatabase-&lt;div&gt;Configuration&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DhTZIucDK908sM7ZXncY-20" target="DhTZIucDK908sM7ZXncY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-20" value="PooledDataSource-&lt;div&gt;Configuration&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DhTZIucDK908sM7ZXncY-26" target="DhTZIucDK908sM7ZXncY-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-26" value="DataSourceConfiguration" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="480" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DhTZIucDK908sM7ZXncY-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="459.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DhTZIucDK908sM7ZXncY-29" value="DataSourceJmx-&lt;div&gt;Configuration&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
